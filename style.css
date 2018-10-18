@@ -1,0 +1,26 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	height: 100%;
+}
+
+.nav-item > a{
+	color:white;
+}
+.nav-item > a:hover{
+	color:lightgrey;
+}
+
+.footer{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	color:white;
+	background-color: #343a40;
+	font-size: 16px;
+	height:30px;
+	line-height: 30px;
+}
