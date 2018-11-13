@@ -3,8 +3,16 @@
 	padding: 0;
 }
 
+html{
+	height: 100%;
+}
+
 body{
 	height: 100%;
+	background: url("https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&h=350") no-repeat center center fixed;
+	background-size: cover;
+	flex-flow: column;
+	display: flex;
 }
 
 .nav-item > a{
@@ -14,6 +22,16 @@ body{
 	color:lightgrey;
 }
 
+.page-content{
+	border-radius: 0 0 5px 5px;
+	background-color: rgb(249, 242, 236);
+	flex-grow: 1;
+}
+
+
+
+
+/*
 .footer{
 	position: absolute;
 	bottom: 0;
@@ -24,3 +42,4 @@ body{
 	height:30px;
 	line-height: 30px;
 }
+*/
