@@ -11,8 +11,6 @@ body{
 	height: 100%;
 	background: url("https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&h=350") no-repeat center center fixed;
 	background-size: cover;
-	flex-flow: column;
-	display: flex;
 }
 
 .nav-item > a{
@@ -23,23 +21,28 @@ body{
 }
 
 .page-content{
+	width: 80%;
 	border-radius: 0 0 5px 5px;
 	background-color: rgb(249, 242, 236);
-	flex-grow: 1;
+	height: auto;
 }
 
-
-
-
-/*
-.footer{
-	position: absolute;
-	bottom: 0;
-	width: 100%;
-	color:white;
-	background-color: #343a40;
-	font-size: 16px;
-	height:30px;
-	line-height: 30px;
+.Categorie-title{
+	margin: 0 0 0 2vh;
+	font-weight: bold;
+	font-size: 32px;
 }
-*/
+
+.Categorie-content{
+	margin: 1vh 0 0 4vh;
+	font-size: 18px;
+}
+
+.Categorie-image{
+	margin: 1vh 0 0 2vh;
+	height: auto;
+}
+
+li{
+	margin-left: 4vh;
+}
