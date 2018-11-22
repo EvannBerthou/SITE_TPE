@@ -21,14 +21,16 @@ body{
 	color:lightgrey;
 }
 
-
-
 .page-content{
 	width: 80%;
 	border-radius: 0 0 5px 5px;
 	background-color: rgb(249, 242, 236);
 	height: auto;
 	padding-bottom: 3em;
+}
+
+.Jumper{
+	padding-bottom: 3.5em;
 }
 
 .Categorie-title{
