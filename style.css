@@ -1,6 +1,7 @@
 *{
 	margin: 0;
 	padding: 0;
+	scroll-behavior: smooth;
 }
 
 html{
@@ -50,10 +51,19 @@ body{
 	height: auto;
 }
 
-li{
-	margin-left: 4vh;
+.Categorie-question{
+	font-family: arial;
 }
 
+.Info{
+	text-decoration: underline;
+	color: #e50000;
+}
+
+.Categorie-content li{
+	margin-left: 4vh;
+	margin-bottom: 1em;
+}
 
 
 

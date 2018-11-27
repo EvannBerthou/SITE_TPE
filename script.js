@@ -3,11 +3,13 @@ const navbarElements = document.getElementById("navbar").getElementsByTagName("l
 const categoriesStart = [
     document.getElementById("Introduction"),
     document.getElementById("LeSon"),
+    document.getElementById("Oreille"),
 ];
 
 const categoriesEnd = [
     document.getElementById("EndIntroduction"),
     document.getElementById("EndLeSon"),
+    document.getElementById("EndOreille"),
 ];
 
 var activeIndex = 0;
