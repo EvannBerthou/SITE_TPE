@@ -3,13 +3,17 @@ const navbarElements = document.getElementById("navbar").getElementsByTagName("l
 const categoriesStart = [
     document.getElementById("Introduction"),
     document.getElementById("LeSon"),
-    document.getElementById("Oreille"),
+    document.getElementById("Expérience"),
+    document.getElementById("Spatialisation"),
+    document.getElementById("Conclusion")
 ];
 
 const categoriesEnd = [
     document.getElementById("EndIntroduction"),
     document.getElementById("EndLeSon"),
-    document.getElementById("EndOreille"),
+    document.getElementById("EndExpérience"),
+    document.getElementById("EndSpatialisation"),
+    document.getElementById("EndConclusion")
 ];
 
 var activeIndex = 0;
