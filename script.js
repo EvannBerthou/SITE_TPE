@@ -3,7 +3,8 @@ const navbarElements = document.getElementById("navbar").getElementsByTagName("l
 const categoriesStart = [
     document.getElementById("Introduction"),
     document.getElementById("LeSon"),
-    document.getElementById("Expérience"),
+    document.getElementById("Ecoute"),
+    document.getElementById("Casque"),
     document.getElementById("Spatialisation"),
     document.getElementById("Conclusion")
 ];
@@ -11,7 +12,8 @@ const categoriesStart = [
 const categoriesEnd = [
     document.getElementById("EndIntroduction"),
     document.getElementById("EndLeSon"),
-    document.getElementById("EndExpérience"),
+    document.getElementById("EndEcoute"),
+    document.getElementById("EndCasque"),
     document.getElementById("EndSpatialisation"),
     document.getElementById("EndConclusion")
 ];
