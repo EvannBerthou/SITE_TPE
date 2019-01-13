@@ -4,6 +4,10 @@
 	scroll-behavior: smooth;
 }
 
+p{
+	
+}
+
 html{
 	height: 100%;
 }
@@ -51,12 +55,13 @@ body{
 }
 
 .Categorie-content{
-	margin: 1vh 0 0 4vh;
+	margin: 1vh 4vh 0 4vh;
 	font-size: 20px;
+	text-align: justify;
 }
 
 .Categorie-image{
-	margin: 1vh 0 0 2vh;
+	margin: 1vh 0 1vh 2vh;
 	height: auto;
 }
 
@@ -67,6 +72,17 @@ body{
 .Info{
 	text-decoration: underline;
 	color: #e50000;
+}
+
+.image-legende{
+	font-size: 12px;
+	color: blue;
+	margin-top: 1.5rem;
+}
+
+.casques img{
+	width: 40%;
+	height: auto;
 }
 
 .Categorie-content li{
@@ -90,4 +106,19 @@ body{
 .Footer a:hover{
 	text-decoration: underline;
 	color: #2980b9
+}
+
+.Billes img {
+	transform: rotate(90deg);
+	width: 20%;
+	height: auto;
+	margin: 5% -2%;
+}
+
+#Vibration-Legende{
+	font-size: 1.5rem;
+	margin-top: 20%;
+}
+.noDot{
+	list-style-type: none;
 }
